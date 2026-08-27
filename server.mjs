@@ -173,7 +173,6 @@ Respond naturally to the patient.`;
             }
           ],
           generationConfig: {
-            temperature: 0.3,
             maxOutputTokens: 800
           }
         })
