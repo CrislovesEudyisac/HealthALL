@@ -1136,7 +1136,7 @@ Duration selected: ${duration}`;
    document.getElementById('aiSymptoms').value='';
  }catch(err){
    healthallAIHistory.pop(); renderAIChat();
-   result.innerHTML='<div class="card warning"><h3>AI service unavailable</h3><p>The HealthALL AI backend could not be reached. Check that the HealthALL server is running and that its OpenAI API key is configured.</p><p class="small">For an emergency, do not wait for the AI—contact emergency services or seek immediate medical care.</p></div>';
+   result.innerHTML='<div class="card warning"><h3>AI service unavailable</h3><p>The HealthALL AI backend could not be reached. Check that the HealthALL server is running and that its GEMINI API key is configured.</p><p class="small">For an emergency, do not wait for the AI—contact emergency services or seek immediate medical care.</p></div>';
  }
 }
 
